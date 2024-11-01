@@ -59,7 +59,27 @@ function test(){
     let el = document.getElementById('ativo');
     el.classList.remove('active');
 
-  }//muda o valor dos titulos nas máquinas para 20
+  }
+  
+  //Validar formulário
+  function mensagem(){
+
+    var filtro = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    var nome = document.getElementById("exampleInputText").value;
+    var email = document.getElementById("exampleInputEmail1").value;
+    var msg = document.getElementById("exampleInputText3").value;
+
+    if(!filtro.test(exampleInputEmail1.value)){
+      alert("email invalido");
+    }else if((nome == "") || (email == "") || (msg == "")){
+      alert("Todos os campos devem ser preenchidos!");
+    }else{
+      alert("Obrigada " + nome + "! Sua mensagem foi enviada com sucesso.");
+      document.getElementById("exampleInputText").value = '';
+      document.getElementById("exampleInputEmail1").value = '';
+      document.getElementById("exampleInputText3").value = '';
+    }    
+  }
 
   // Add active class on another page linked
   // ==========================================
