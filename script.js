@@ -28,9 +28,11 @@ function test(){
       });
     });
   }
+
   $(document).ready(function(){
     setTimeout(function(){ test(); });
   });
+
   $(window).on('resize', function(){
     setTimeout(function(){ test(); }, 500);
   });
@@ -39,6 +41,7 @@ function test(){
     $(".navbar-collapse").slideToggle(300);
     setTimeout(function(){ test(); });
   };
+
   // --------------add active class-on another-page move----------
   jQuery(document).ready(function($){
     // Get current path and find target link
@@ -79,6 +82,12 @@ function test(){
       document.getElementById("exampleInputEmail1").value = '';
       document.getElementById("exampleInputText3").value = '';
     }    
+  }
+
+  //Atualiza a página
+  function msg(){
+    var url = window.location.href;
+   alert("Servidor local: " + url);
   }
 
   // Add active class on another page linked

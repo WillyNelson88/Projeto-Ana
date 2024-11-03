@@ -24,7 +24,7 @@
   <body style="background-color: #f4d0e3;">
     <!--Navbar-->
     <nav class="navbar navbar-expand-custom navbar-mainbg sticky-top" style="background-color:#FF6EC7">
-      <a  class="navbar-brand text-light" href="#vineta4" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">PORTFOLIO </a>
+      <a  class="navbar-brand text-light" onclick="msg()" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">PORTFOLIO </a>
         <button class="navbar-toggler" type="button" onclick="navbarToggler()" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars text-white"></i>
         </button>
@@ -44,10 +44,10 @@
                     <a class="nav-link" href="#vineta3"><i class="far fa-clone"></i>Interesses</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#vineta4"><i class="far fa-calendar-alt"></i>logros</a>
+                    <a class="nav-link" href="#vineta4"><i class="far fa-calendar-alt"></i>Conquistas</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#vineta5"><i class="far fa-chart-bar"></i>contact</a>
+                    <a class="nav-link" href="#vineta5"><i class="far fa-chart-bar"></i>Contato</a>
                 </li>
             </ul>
         </div>
@@ -99,7 +99,7 @@
       </div>
     </div>
     <hr>
-    <!-- Fin Carrussel -->
+    <!-- Fim do Carrussel -->
     <!-- Sobre Mi -->
     <section id="vineta1">
       <h2 style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Sobre Mim</h2>
@@ -140,8 +140,8 @@
       </div>
     </section>
     <hr>
-    <!-- Fin Sobre Mi -->
-    <!-- Mis Hobbies -->
+    <!-- Fim de Sobre Mi -->
+    <!-- Hobbies -->
     <section id="vineta2">
       <h2 style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Hobbies</h2>
       <hr>
@@ -149,17 +149,17 @@
         <div class="row">
         <div class="col">
           <div class="card">
-            <img src="Imagens/img3res.jpg" class="card-img-top" alt="...">
+            <img src="" class="card-img-top" alt="...">
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Escreva aqui um hobbie</p>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="Imagens/img1res.jpg" class="card-img-top" alt="...">
+            <img src="" class="card-img-top" alt="...">
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Escreva aqui outro hobbie</p>
             </div>
           </div>
         </div>  
@@ -167,95 +167,97 @@
       </div>   
     </section>
     <hr>
-    <!-- Fin Mis Hobbies -->
+    <!-- Fim de Hobbies -->
     <!-- Intereses -->
     <section id="vineta3">
-      <h2>Intereses</h2>
+      <h2 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Intereses</h2>
       <hr>
-      <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button btn-dark bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Cantar
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <p>He demostrado tener un talento natural para el canto. Según mis fans tengo un rango vocal muy versátil el cual me permite abordar una variedad de géneros musicales, desde baladas emotivas hasta canciones pop más animadas. Aun sigo dedicando mucho tiempo y esfuerzo para mejorar mi habilidad vocal. Deseo de seguir creciendo aun más como artista.</p>
+      <div class="container">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button text-white" style="background-color: #FF6EC7;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Titulo de um interesse
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Escreva sobre esse interesse</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed btn-dark bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Tomar Fotografías
-            </button>
-          </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <p>Considero que tengo un ojo creativo para la fotografía ya que mis fotos suelen tener composiciones interesantes y únicas tales como iluminación o colores. Amo tomar fotos porque lo veo como una forma en la que expreso mi creatividad.</p>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed text-white" style="background-color: #FF6EC7; type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Titulo de um interesse
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Escreva sobre esse interesse</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed btn-dark bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Películas Favoritas
-            </button>
-          </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <p>Mi película favorita hasta ahora es "Titanic", otras que me llaman la atención son "La La Land" y "Secrets".</p>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed text-white" style="background-color: #FF6EC7; type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Titulo de um interesse
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Escreva sobre esse interesse</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
     <hr>
-    <!-- Fin Intereses -->
-    <!-- Logros -->
+    <!-- Fim de Intereses -->
+    <!-- Conquistas -->
     <section id="vineta4">
-      <h2>Logros</h2>
+      <h2 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Conquistas</h2>
       <hr>
-      <div class="card border">
-        <div class="row no-gutters">
-          <div class="col-md-4">
-            <img src="https://i.pinimg.com/564x/bd/ee/20/bdee20f751a3a48b371fb6165683eac6.jpg" class="card-img" alt="Imagen">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Ser embajador de Calvin Klein</h5>
-              <p class="card-text">Estoy muy orgulloso de ser embajador de la marca. Soy fan de Calvin Klein desde hace mucho tiempo. La música es mi forma de comunicación con los fans de todo el mundo, pero esta asociación es otro tipo de comunicación.</p>
-              <p>Veo esta asociación como una nueva oportunidad de conectar con los fans de otra manera. Me emociona mucho mostrar una faceta diferente de mí en mi primera campaña para la marca. Me hace mucha ilusión</p>
-              <p class="card-text"><small class="text-muted">29 de Marzo del 2023</small></p>
+      <div class="container">
+        <div class="card border">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="" class="card-img" alt="Imagen">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Titulo de uma conquista</h5>
+                <p class="card-text">Escreva sobre essa conquista</p>
+                <p>Escreva sobre essa conquista</p>
+                <p class="card-text"><small class="text-muted">escreva a data</small></p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-
-      <br>
-      <br>
-
-      <div class="card border">
-        <div class="row no-gutters">
-          <div class="col-md-4">
-            <img src="https://i.pinimg.com/564x/03/4c/21/034c2149d04564ce4d9145fb65163a47.jpg" class="card-img" alt="Imagen">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Tener 5 canciones en el Hot 100 Billboard</h5>
-              <p class="card-text">Ocupe el puesto numero 7 en el Artist 100 de esta semana luego de haber sacado mi album Seven, convirtiendome en el primer solista de K-pop en pasar 14 semanas en esta lista.</p>
-              <p class="card-text"><small class="text-muted">21 de Noviembre del 2023</small></p>
+        <br>
+        <br>
+        <div class="card border">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="" class="card-img" alt="Imagen">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Titulo de uma conquista</h5>
+                <p class="card-text">Escreva sobre essa conquista</p>
+                <p class="card-text"><small class="text-muted">escreva a data</small></p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
     <hr>
-    <!-- Fin Logros -->
+    <!-- Fim conquistas -->
     <!-- Formulario -->
     <section id="vineta5">
-      <h2>Deixe sua Mensagem</h2>
+      <h2 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Deixe sua Mensagem</h2>
       <hr>
       <form id="form">
         <div class="formulario">
@@ -272,7 +274,7 @@
         </div>
       </form>
     </section>
-    <!-- Fin Formulario -->
+    <!-- Fim do Formulario -->
   </body>
   <!--RODAPÉ-->
   <footer class="footer py-auto " style="background-color:  #FF6EC7; margin: 10px 0px 0px 0px;">
